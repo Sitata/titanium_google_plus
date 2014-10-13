@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+description: titanium_google_plus
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2014 by Your Company
+
+# these should not be edited
+name: titanium_google_plus
+moduleid: com.sitata.titanium.googleplus
+guid: f082bd88-a035-4c3f-b376-2e96ec5ff1dc
+platform: iphone
+minsdk: 3.4.0.GA
