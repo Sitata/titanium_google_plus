@@ -220,7 +220,7 @@
 }
 
 // Returns true if user is currently logged in.
--(BOOL)isLoggedIn
+-(BOOL)isLoggedIn:(id)args
 {
     return [[GPPSignIn sharedInstance] hasAuthInKeychain];
 }

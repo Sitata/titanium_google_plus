@@ -30,7 +30,7 @@
 
 
 
--(BOOL)isLoggedIn;
+-(BOOL)isLoggedIn:(id)args;
 -(void)signin:(id)args;
 -(void)signout:(id)args;
 -(void)disconnect:(id)args;
