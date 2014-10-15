@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2B990EC7-606D-4E38-AF90-C6CF30C076BA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>titanium_google_plus</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CC018947BD163D40CA3EE16CDE782E23276F2B86</key>
+		<string>github.com:Sitata/titanium_google_plus.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iphone/titanium_google_plus.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CC018947BD163D40CA3EE16CDE782E23276F2B86</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Sitata/titanium_google_plus.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CC018947BD163D40CA3EE16CDE782E23276F2B86</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CC018947BD163D40CA3EE16CDE782E23276F2B86</string>
+			<key>IDESourceControlWCCName</key>
+			<string>titanium_google_plus</string>
+		</dict>
+	</array>
+</dict>
+</plist>

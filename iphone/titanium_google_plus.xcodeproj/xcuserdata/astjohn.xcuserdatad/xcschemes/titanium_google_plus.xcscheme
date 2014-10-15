@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2AAC07D0554694100DB518D"
-               BuildableName = "libComSitataTitaniumGoogleplus.a"
+               BuildableName = "libComSitataGoogleplus.a"
                BlueprintName = "titanium_google_plus"
                ReferencedContainer = "container:titanium_google_plus.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2AAC07D0554694100DB518D"
-            BuildableName = "libComSitataTitaniumGoogleplus.a"
+            BuildableName = "libComSitataGoogleplus.a"
             BlueprintName = "titanium_google_plus"
             ReferencedContainer = "container:titanium_google_plus.xcodeproj">
          </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2AAC07D0554694100DB518D"
-            BuildableName = "libComSitataTitaniumGoogleplus.a"
+            BuildableName = "libComSitataGoogleplus.a"
             BlueprintName = "titanium_google_plus"
             ReferencedContainer = "container:titanium_google_plus.xcodeproj">
          </BuildableReference>

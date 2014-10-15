@@ -4,5 +4,4 @@ build
 *.zip
 .apt_generated
 build.properties
-libs
 module.xcconfig

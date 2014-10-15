@@ -22,25 +22,23 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		24DD6CF91134B3F500162E58 /* ComSitataTitaniumGoogleplusModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComSitataTitaniumGoogleplusModule.h */; };
-		24DD6CFA1134B3F500162E58 /* ComSitataTitaniumGoogleplusModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComSitataTitaniumGoogleplusModule.m */; };
-		24DE9E1111C5FE74003F90F6 /* ComSitataTitaniumGoogleplusModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComSitataTitaniumGoogleplusModuleAssets.h */; };
-		24DE9E1211C5FE74003F90F6 /* ComSitataTitaniumGoogleplusModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComSitataTitaniumGoogleplusModuleAssets.m */; };
-		2774620419E97E7B00F9C438 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2774620319E97E7B00F9C438 /* AddressBook.framework */; };
-		2774620619E97E8800F9C438 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2774620519E97E8800F9C438 /* AssetsLibrary.framework */; };
-		2774620819E97EAF00F9C438 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2774620719E97EAF00F9C438 /* CoreLocation.framework */; };
-		2774620A19E97EBB00F9C438 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2774620919E97EBB00F9C438 /* CoreMotion.framework */; };
-		2774620C19E97EC400F9C438 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2774620B19E97EC400F9C438 /* CoreGraphics.framework */; };
-		2774620E19E97ECF00F9C438 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2774620D19E97ECF00F9C438 /* CoreText.framework */; };
-		2774621019E97ED900F9C438 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2774620F19E97ED900F9C438 /* MediaPlayer.framework */; };
-		2774621219E97EE600F9C438 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2774621119E97EE600F9C438 /* Security.framework */; };
-		2774621419E97EF100F9C438 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2774621319E97EF100F9C438 /* SystemConfiguration.framework */; };
-		2774621619E97EFE00F9C438 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2774621519E97EFE00F9C438 /* UIKit.framework */; };
-		2774621919E97F3600F9C438 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2774621719E97F3600F9C438 /* GoogleOpenSource.framework */; };
-		2774621A19E97F3600F9C438 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2774621819E97F3600F9C438 /* GooglePlus.framework */; };
-		2774621D19E980A900F9C438 /* ComSitataTitaniumGoogleplusSigninButtonProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2774621B19E980A900F9C438 /* ComSitataTitaniumGoogleplusSigninButtonProxy.h */; };
-		2774621E19E980A900F9C438 /* ComSitataTitaniumGoogleplusSigninButtonProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2774621C19E980A900F9C438 /* ComSitataTitaniumGoogleplusSigninButtonProxy.m */; };
-		AA747D9F0F9514B9006C5449 /* ComSitataTitaniumGoogleplus_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComSitataTitaniumGoogleplus_Prefix.pch */; };
+		24DD6CF91134B3F500162E58 /* ComSitataGoogleplusModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComSitataGoogleplusModule.h */; };
+		24DD6CFA1134B3F500162E58 /* ComSitataGoogleplusModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComSitataGoogleplusModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* ComSitataGoogleplusModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComSitataGoogleplusModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* ComSitataGoogleplusModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComSitataGoogleplusModuleAssets.m */; };
+		2745C1ED19EDF3D000A212F9 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2745C1EC19EDF3D000A212F9 /* AddressBook.framework */; };
+		2745C1EF19EDF3D800A212F9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2745C1EE19EDF3D800A212F9 /* AssetsLibrary.framework */; };
+		2745C1F119EDF3E200A212F9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2745C1F019EDF3E200A212F9 /* CoreLocation.framework */; };
+		2745C1F319EDF3EA00A212F9 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2745C1F219EDF3EA00A212F9 /* CoreMotion.framework */; };
+		2745C1F519EDF3F200A212F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2745C1F419EDF3F200A212F9 /* CoreGraphics.framework */; };
+		2745C1F719EDF3FC00A212F9 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2745C1F619EDF3FC00A212F9 /* CoreText.framework */; };
+		2745C1F919EDF40600A212F9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2745C1F819EDF40600A212F9 /* MediaPlayer.framework */; };
+		2745C1FB19EDF40E00A212F9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2745C1FA19EDF40E00A212F9 /* Security.framework */; };
+		2745C1FD19EDF41600A212F9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2745C1FC19EDF41600A212F9 /* SystemConfiguration.framework */; };
+		2745C1FF19EDF42100A212F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2745C1FE19EDF42000A212F9 /* UIKit.framework */; };
+		2745C20119EDF43200A212F9 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2745C20019EDF43200A212F9 /* GooglePlus.framework */; };
+		2745C20319EDF44300A212F9 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2745C20219EDF44300A212F9 /* GoogleOpenSource.framework */; };
+		AA747D9F0F9514B9006C5449 /* ComSitataGoogleplus_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComSitataGoogleplus_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,28 +53,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24DD6CF71134B3F500162E58 /* ComSitataTitaniumGoogleplusModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComSitataTitaniumGoogleplusModule.h; path = Classes/ComSitataTitaniumGoogleplusModule.h; sourceTree = "<group>"; };
-		24DD6CF81134B3F500162E58 /* ComSitataTitaniumGoogleplusModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComSitataTitaniumGoogleplusModule.m; path = Classes/ComSitataTitaniumGoogleplusModule.m; sourceTree = "<group>"; };
+		24DD6CF71134B3F500162E58 /* ComSitataGoogleplusModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComSitataGoogleplusModule.h; path = Classes/ComSitataGoogleplusModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComSitataGoogleplusModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComSitataGoogleplusModule.m; path = Classes/ComSitataGoogleplusModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
-		24DE9E0F11C5FE74003F90F6 /* ComSitataTitaniumGoogleplusModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComSitataTitaniumGoogleplusModuleAssets.h; path = Classes/ComSitataTitaniumGoogleplusModuleAssets.h; sourceTree = "<group>"; };
-		24DE9E1011C5FE74003F90F6 /* ComSitataTitaniumGoogleplusModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComSitataTitaniumGoogleplusModuleAssets.m; path = Classes/ComSitataTitaniumGoogleplusModuleAssets.m; sourceTree = "<group>"; };
-		2774620319E97E7B00F9C438 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
-		2774620519E97E8800F9C438 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		2774620719E97EAF00F9C438 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		2774620919E97EBB00F9C438 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		2774620B19E97EC400F9C438 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2774620D19E97ECF00F9C438 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		2774620F19E97ED900F9C438 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		2774621119E97EE600F9C438 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		2774621319E97EF100F9C438 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		2774621519E97EFE00F9C438 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		2774621719E97F3600F9C438 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleOpenSource.framework; path = "../../../../third_party/google-plus-ios-sdk-1.7.1/GoogleOpenSource.framework"; sourceTree = "<group>"; };
-		2774621819E97F3600F9C438 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = "../../../../third_party/google-plus-ios-sdk-1.7.1/GooglePlus.framework"; sourceTree = "<group>"; };
-		2774621B19E980A900F9C438 /* ComSitataTitaniumGoogleplusSigninButtonProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComSitataTitaniumGoogleplusSigninButtonProxy.h; path = Classes/ComSitataTitaniumGoogleplusSigninButtonProxy.h; sourceTree = "<group>"; };
-		2774621C19E980A900F9C438 /* ComSitataTitaniumGoogleplusSigninButtonProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComSitataTitaniumGoogleplusSigninButtonProxy.m; path = Classes/ComSitataTitaniumGoogleplusSigninButtonProxy.m; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* ComSitataTitaniumGoogleplus_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComSitataTitaniumGoogleplus_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		24DE9E0F11C5FE74003F90F6 /* ComSitataGoogleplusModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComSitataGoogleplusModuleAssets.h; path = Classes/ComSitataGoogleplusModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComSitataGoogleplusModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComSitataGoogleplusModuleAssets.m; path = Classes/ComSitataGoogleplusModuleAssets.m; sourceTree = "<group>"; };
+		2745C1EC19EDF3D000A212F9 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		2745C1EE19EDF3D800A212F9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		2745C1F019EDF3E200A212F9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2745C1F219EDF3EA00A212F9 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		2745C1F419EDF3F200A212F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2745C1F619EDF3FC00A212F9 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2745C1F819EDF40600A212F9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2745C1FA19EDF40E00A212F9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2745C1FC19EDF41600A212F9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2745C1FE19EDF42000A212F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2745C20019EDF43200A212F9 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = "libs/google-plus-ios-sdk-1.7.1/GooglePlus.framework"; sourceTree = "<group>"; };
+		2745C20219EDF44300A212F9 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleOpenSource.framework; path = "libs/google-plus-ios-sdk-1.7.1/GoogleOpenSource.framework"; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ComSitataGoogleplus_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComSitataGoogleplus_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libComSitataTitaniumGoogleplus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComSitataTitaniumGoogleplus.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libComSitataGoogleplus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComSitataGoogleplus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,19 +80,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2774620419E97E7B00F9C438 /* AddressBook.framework in Frameworks */,
-				2774620619E97E8800F9C438 /* AssetsLibrary.framework in Frameworks */,
+				2745C1ED19EDF3D000A212F9 /* AddressBook.framework in Frameworks */,
+				2745C1EF19EDF3D800A212F9 /* AssetsLibrary.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
-				2774620819E97EAF00F9C438 /* CoreLocation.framework in Frameworks */,
-				2774620A19E97EBB00F9C438 /* CoreMotion.framework in Frameworks */,
-				2774620C19E97EC400F9C438 /* CoreGraphics.framework in Frameworks */,
-				2774620E19E97ECF00F9C438 /* CoreText.framework in Frameworks */,
-				2774621019E97ED900F9C438 /* MediaPlayer.framework in Frameworks */,
-				2774621219E97EE600F9C438 /* Security.framework in Frameworks */,
-				2774621419E97EF100F9C438 /* SystemConfiguration.framework in Frameworks */,
-				2774621619E97EFE00F9C438 /* UIKit.framework in Frameworks */,
-				2774621A19E97F3600F9C438 /* GooglePlus.framework in Frameworks */,
-				2774621919E97F3600F9C438 /* GoogleOpenSource.framework in Frameworks */,
+				2745C1F119EDF3E200A212F9 /* CoreLocation.framework in Frameworks */,
+				2745C1F319EDF3EA00A212F9 /* CoreMotion.framework in Frameworks */,
+				2745C1F519EDF3F200A212F9 /* CoreGraphics.framework in Frameworks */,
+				2745C1F719EDF3FC00A212F9 /* CoreText.framework in Frameworks */,
+				2745C1F919EDF40600A212F9 /* MediaPlayer.framework in Frameworks */,
+				2745C1FB19EDF40E00A212F9 /* Security.framework in Frameworks */,
+				2745C1FD19EDF41600A212F9 /* SystemConfiguration.framework in Frameworks */,
+				2745C1FF19EDF42100A212F9 /* UIKit.framework in Frameworks */,
+				2745C20119EDF43200A212F9 /* GooglePlus.framework in Frameworks */,
+				2745C20319EDF44300A212F9 /* GoogleOpenSource.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +102,7 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libComSitataTitaniumGoogleplus.a */,
+				D2AAC07E0554694100DB518D /* libComSitataGoogleplus.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,18 +121,18 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2774621719E97F3600F9C438 /* GoogleOpenSource.framework */,
-				2774621819E97F3600F9C438 /* GooglePlus.framework */,
-				2774621519E97EFE00F9C438 /* UIKit.framework */,
-				2774621319E97EF100F9C438 /* SystemConfiguration.framework */,
-				2774621119E97EE600F9C438 /* Security.framework */,
-				2774620F19E97ED900F9C438 /* MediaPlayer.framework */,
-				2774620D19E97ECF00F9C438 /* CoreText.framework */,
-				2774620B19E97EC400F9C438 /* CoreGraphics.framework */,
-				2774620919E97EBB00F9C438 /* CoreMotion.framework */,
-				2774620719E97EAF00F9C438 /* CoreLocation.framework */,
-				2774620519E97E8800F9C438 /* AssetsLibrary.framework */,
-				2774620319E97E7B00F9C438 /* AddressBook.framework */,
+				2745C20219EDF44300A212F9 /* GoogleOpenSource.framework */,
+				2745C20019EDF43200A212F9 /* GooglePlus.framework */,
+				2745C1FE19EDF42000A212F9 /* UIKit.framework */,
+				2745C1FC19EDF41600A212F9 /* SystemConfiguration.framework */,
+				2745C1FA19EDF40E00A212F9 /* Security.framework */,
+				2745C1F819EDF40600A212F9 /* MediaPlayer.framework */,
+				2745C1F619EDF3FC00A212F9 /* CoreText.framework */,
+				2745C1F419EDF3F200A212F9 /* CoreGraphics.framework */,
+				2745C1F219EDF3EA00A212F9 /* CoreMotion.framework */,
+				2745C1F019EDF3E200A212F9 /* CoreLocation.framework */,
+				2745C1EE19EDF3D800A212F9 /* AssetsLibrary.framework */,
+				2745C1EC19EDF3D000A212F9 /* AddressBook.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -145,12 +141,10 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2774621B19E980A900F9C438 /* ComSitataTitaniumGoogleplusSigninButtonProxy.h */,
-				2774621C19E980A900F9C438 /* ComSitataTitaniumGoogleplusSigninButtonProxy.m */,
-				24DE9E0F11C5FE74003F90F6 /* ComSitataTitaniumGoogleplusModuleAssets.h */,
-				24DE9E1011C5FE74003F90F6 /* ComSitataTitaniumGoogleplusModuleAssets.m */,
-				24DD6CF71134B3F500162E58 /* ComSitataTitaniumGoogleplusModule.h */,
-				24DD6CF81134B3F500162E58 /* ComSitataTitaniumGoogleplusModule.m */,
+				24DE9E0F11C5FE74003F90F6 /* ComSitataGoogleplusModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* ComSitataGoogleplusModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* ComSitataGoogleplusModule.h */,
+				24DD6CF81134B3F500162E58 /* ComSitataGoogleplusModule.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -158,7 +152,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AA747D9E0F9514B9006C5449 /* ComSitataTitaniumGoogleplus_Prefix.pch */,
+				AA747D9E0F9514B9006C5449 /* ComSitataGoogleplus_Prefix.pch */,
 				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
 			);
 			name = "Other Sources";
@@ -171,10 +165,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA747D9F0F9514B9006C5449 /* ComSitataTitaniumGoogleplus_Prefix.pch in Headers */,
-				24DD6CF91134B3F500162E58 /* ComSitataTitaniumGoogleplusModule.h in Headers */,
-				24DE9E1111C5FE74003F90F6 /* ComSitataTitaniumGoogleplusModuleAssets.h in Headers */,
-				2774621D19E980A900F9C438 /* ComSitataTitaniumGoogleplusSigninButtonProxy.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* ComSitataGoogleplus_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* ComSitataGoogleplusModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* ComSitataGoogleplusModuleAssets.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +188,7 @@
 			);
 			name = titanium_google_plus;
 			productName = titanium_google_plus;
-			productReference = D2AAC07E0554694100DB518D /* libComSitataTitaniumGoogleplus.a */;
+			productReference = D2AAC07E0554694100DB518D /* libComSitataGoogleplus.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -247,9 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DD6CFA1134B3F500162E58 /* ComSitataTitaniumGoogleplusModule.m in Sources */,
-				2774621E19E980A900F9C438 /* ComSitataTitaniumGoogleplusSigninButtonProxy.m in Sources */,
-				24DE9E1211C5FE74003F90F6 /* ComSitataTitaniumGoogleplusModuleAssets.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* ComSitataGoogleplusModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* ComSitataGoogleplusModuleAssets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +262,15 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = /tmp/ComSitataTitaniumGoogleplus.dst;
+				DSTROOT = /tmp/ComSitataGoogleplus.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/astjohn/Development/third_party/google-plus-ios-sdk-1.7.1",
+					"$(PROJECT_DIR)/libs/google-plus-ios-sdk-1.7.1",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ComSitataTitaniumGoogleplus_Prefix.pch;
+				GCC_PREFIX_HEADER = ComSitataGoogleplus_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -297,7 +289,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = ComSitataTitaniumGoogleplus;
+				PRODUCT_NAME = ComSitataGoogleplus;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -311,15 +303,15 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/ComSitataTitaniumGoogleplus.dst;
+				DSTROOT = /tmp/ComSitataGoogleplus.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/astjohn/Development/third_party/google-plus-ios-sdk-1.7.1",
+					"$(PROJECT_DIR)/libs/google-plus-ios-sdk-1.7.1",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ComSitataTitaniumGoogleplus_Prefix.pch;
+				GCC_PREFIX_HEADER = ComSitataGoogleplus_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -336,7 +328,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = ComSitataTitaniumGoogleplus;
+				PRODUCT_NAME = ComSitataGoogleplus;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -350,11 +342,11 @@
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = /tmp/ComSitataTitaniumGoogleplus.dst;
+				DSTROOT = /tmp/ComSitataGoogleplus.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ComSitataTitaniumGoogleplus_Prefix.pch;
+				GCC_PREFIX_HEADER = ComSitataGoogleplus_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -372,7 +364,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = ComSitataTitaniumGoogleplus;
+				PRODUCT_NAME = ComSitataGoogleplus;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -387,11 +379,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LIBRARY = "libstdc++";
-				DSTROOT = /tmp/ComSitataTitaniumGoogleplus.dst;
+				DSTROOT = /tmp/ComSitataGoogleplus.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ComSitataTitaniumGoogleplus_Prefix.pch;
+				GCC_PREFIX_HEADER = ComSitataGoogleplus_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -407,7 +399,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = ComSitataTitaniumGoogleplus;
+				PRODUCT_NAME = ComSitataGoogleplus;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
