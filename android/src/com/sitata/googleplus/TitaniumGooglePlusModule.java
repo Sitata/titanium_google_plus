@@ -6,9 +6,11 @@
  * Please see the LICENSE included with this distribution for details.
  *
  */
-package com.sitata.titanium.googleplus;
+package com.sitata.googleplus;
 
+import org.appcelerator.kroll.KrollEventCallback;
 import org.appcelerator.kroll.KrollModule;
+import org.appcelerator.kroll.KrollDict;
 import org.appcelerator.kroll.annotations.Kroll;
 
 import org.appcelerator.titanium.TiApplication;
@@ -16,13 +18,18 @@ import org.appcelerator.kroll.common.Log;
 import org.appcelerator.kroll.common.TiConfig;
 
 
-@Kroll.module(name="TitaniumGooglePlus", id="com.sitata.titanium.googleplus")
+@Kroll.module(name="TitaniumGooglePlus", id="com.sitata.googleplus")
 public class TitaniumGooglePlusModule extends KrollModule
 {
 
 	// Standard Debugging variables
 	private static final String LCAT = "TitaniumGooglePlusModule";
 	private static final boolean DBG = TiConfig.LOGD;
+	
+	private String mClientId;
+	private Object[] mScopes;
+	private KrollEventCallback successCallback;
+	private KrollEventCallback errorCallback;
 
 	// You can define constants with @Kroll.constant, for example:
 	// @Kroll.constant public static final String EXTERNAL_NAME = value;
@@ -41,24 +48,54 @@ public class TitaniumGooglePlusModule extends KrollModule
 
 	// Methods
 	@Kroll.method
-	public String example()
+	public void signin(KrollDict props)
 	{
-		Log.d(LCAT, "example called");
-		return "hello world";
+		if (props.containsKey("success")) {
+			successCallback = (KrollEventCallback) props.get("success");
+		}
+		if (props.containsKey("error")) {
+			errorCallback = (KrollEventCallback) props.get("error");
+		}
+		
+		// TODO
+	}
+	
+	@Kroll.method
+	public void signout() {
+		// TODO
+	}
+	
+	@Kroll.method
+	public void disconnect() {
+		// TODO
+	}
+	
+	@Kroll.method
+	public Boolean isLoggedIn() {
+		return false; // TODO
 	}
 
 	// Properties
-	@Kroll.getProperty
-	public String getExampleProp()
+	@Kroll.getProperty @Kroll.method
+	public void setClientId(String value)
 	{
-		Log.d(LCAT, "get example property");
-		return "hello world";
+		mClientId = value;
+	}
+	
+	@Kroll.getProperty @Kroll.method
+	public String getClientId() {
+		return mClientId;
 	}
 
-
-	@Kroll.setProperty
-	public void setExampleProp(String value) {
-		Log.d(LCAT, "set example property: " + value);
+	@Kroll.getProperty @Kroll.method
+	public void setScopes(Object[] value)
+	{
+		mScopes = value;
+	}
+	
+	@Kroll.getProperty @Kroll.method
+	public Object[] getScopes() {
+		return mScopes;
 	}
 
 }

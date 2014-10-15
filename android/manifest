@@ -12,6 +12,6 @@ copyright: Copyright (c) 2014 by Your Company
 # these should not be edited
 name: titanium_google_plus
 moduleid: com.sitata.googleplus
-guid: e1fc2a28-8b60-42db-8557-d091e6f1eddd
+guid: c6f457de-0555-4f85-a287-bf45281a67ee
 platform: android
 minsdk: 3.4.0.GA
