@@ -245,7 +245,7 @@
  * Ti.API.info(googleplus.clientId);
  *
  */
--(id)clientId
+-(id)getClientId
 {
     return clientId;
 }
@@ -268,7 +268,7 @@
  * Ti.API.info(googleplus.clientId);
  *
  */
--(id)scopes
+-(id)getScopes
 {
     return scopeArr;
 }
