@@ -26,5 +26,10 @@
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 //
 
-OTHER_LDFLAGS=$(inherited) -ObjC -framework AddressBook -framework AssetsLibrary -framework Foundation -framework CoreLocation -framework CoreMotion -framework CoreGraphics -framework CoreText -framework MediaPlayer -framework Security -framework SystemConfiguration -framework UiKit -F"/Users/astjohn/Development/sitata/mobile/titanium_google_plus/iphone/libs/google-plus-ios-sdk-1.7.1/" -framework GooglePlus -framework GoogleOpenSource
+// Here is the little hack of how to resolve environmental path dependencies.
+MODULEID=com.sitata.googleplus
+VERSION=1.0.0
+EXT_MODS_BASEDIR=$(SRCROOT)/../../modules/iphone/{MODULEID}/{VERSION}/includes
+
+OTHER_LDFLAGS=$(inherited) -ObjC -framework AddressBook -framework AssetsLibrary -framework Foundation -framework CoreLocation -framework CoreMotion -framework CoreGraphics -framework CoreText -framework MediaPlayer -framework Security -framework SystemConfiguration -framework UiKit -F"$(SRCROOT)/../../modules/iphone/com.sitata.googleplus/1.0.0/includes" -framework GooglePlus -framework GoogleOpenSource
 

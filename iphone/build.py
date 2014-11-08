@@ -211,7 +211,7 @@ def package_module(manifest,mf,config):
 	if os.path.exists(p):
 		zip_dir(zf,p,'%s/%s' % (modulepath,'assets'),['README'])
 
-	for dn in ('example','platform'):
+	for dn in ('example','platform','includes'):
 		p = os.path.join(cwd, dn)
 		if not os.path.exists(p):
 			p = os.path.join(cwd, '..', dn)
