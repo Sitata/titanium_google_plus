@@ -21,7 +21,7 @@
 {
     BOOL loggedIn;
     NSString *clientId;
-    NSArray *scopeArr;
+    NSMutableArray *scopeArr;
     
     KrollCallback *successCallback;
     KrollCallback *errorCallback;

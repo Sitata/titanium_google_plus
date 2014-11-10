@@ -108,10 +108,11 @@
     // If attemptSSO is true, try to authenticate with the Google+ app, if installed.
     signIn.attemptSSO = YES;
     signIn.clientID = clientId;
-    signIn.scopes = scopeArr == nil ? [NSArray array] : scopeArr;
+    signIn.scopes = (scopeArr == nil ? [NSMutableArray new] : scopeArr);
     NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
     signIn.language = language;
     signIn.delegate = self;
+
 }
 
 
@@ -256,10 +257,15 @@
  * googleplus.clientId = "absld";
  *
  */
--(void)setScopes:(id)arg
+-(void)setScopes:(id)args
 {
+    scopeArr = [NSMutableArray new];
 
-    scopeArr = arg;
+    ENSURE_TYPE_OR_NIL(args, NSArray);
+    for (id item in args) {
+        NSString *temp = [TiUtils stringValue:item];
+        [scopeArr addObject:temp];
+    }
 }
 /**
  * JS:
