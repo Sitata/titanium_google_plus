@@ -137,7 +137,7 @@
         loggedIn = true;
         // Set data
         [event setValue:[[GPPSignIn sharedInstance] idToken] forKey:@"idToken"];
-        [event setValue:[[GPPSignIn sharedInstance] userEmail] forKey:@"userEmail"];
+        [event setValue:[[GPPSignIn sharedInstance] userEmail] forKey:@"accountId"];
         [event setValue:[auth accessToken] forKey:@"accessToken"];
         [event setValue:[auth refreshToken] forKey:@"refreshToken"];
         [event setValue:[auth expiresIn] forKey:@"expiresIn"];
