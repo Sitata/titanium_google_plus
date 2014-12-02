@@ -11,7 +11,7 @@ var win = Ti.UI.createWindow({
 var label = Ti.UI.createLabel();
 
 
-var google = require('com.sitata.titanium.googleplus');
+var google = require('com.sitata.googleplus');
 Ti.API.info("module is => " + google);
 
 label.text = "Log in."
