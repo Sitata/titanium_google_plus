@@ -2,7 +2,7 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.0.0
+version: 1.5.0
 apiversion: 2
 description: titanium_google_plus
 author: Your Name
@@ -14,4 +14,4 @@ name: titanium_google_plus
 moduleid: com.sitata.googleplus
 guid: c6f457de-0555-4f85-a287-bf45281a67ee
 platform: android
-minsdk: 3.4.0.GA
+minsdk: 3.5.0.GA

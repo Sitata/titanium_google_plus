@@ -384,7 +384,7 @@ public class TitaniumGooglePlusModule extends KrollModule implements
 	}
 
 	@Kroll.getProperty @Kroll.method
-	public Object[] getScopes() {
+	public String[] getScopes() {
 		return mScopes;
 	}
 
