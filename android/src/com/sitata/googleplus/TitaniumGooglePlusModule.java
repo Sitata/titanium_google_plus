@@ -108,7 +108,7 @@ public class TitaniumGooglePlusModule extends KrollModule implements
 	@Override
 	public void onStop(Activity activity) {
 		super.onStop(activity);
-		if (mGoogleApiClient.isConnected()) {
+		if (mGoogleApiClient != null && mGoogleApiClient.isConnected()) {
 			Log.d(TAG, "On stop and disconnecting");
 			mGoogleApiClient.disconnect();
 		}
@@ -149,11 +149,7 @@ public class TitaniumGooglePlusModule extends KrollModule implements
 			// been set to true prior to connecting
 			clearAccount();
 		} else {
-			if (!mFetchingToken) {
-				mFetchingToken = true;
-				mEmail = Plus.AccountApi.getAccountName(mGoogleApiClient);
-				fetchAccessToken();
-			}
+			doFetchToken();
 		}
 	}
 
@@ -304,6 +300,14 @@ public class TitaniumGooglePlusModule extends KrollModule implements
 
 		mGoogleApiClient = builder.build();
 	}
+	
+	private void doFetchToken() {
+		if (!mFetchingToken) {
+			mFetchingToken = true;
+			mEmail = Plus.AccountApi.getAccountName(mGoogleApiClient);
+			fetchAccessToken();
+		}
+	}
 
 	// Now that mEmail exists and we know the accountId and have signed in to
 	// GooglePlus Oauth,
@@ -343,7 +347,15 @@ public class TitaniumGooglePlusModule extends KrollModule implements
 		if (!mGoogleApiClient.isConnected()) {
 			mClearingAccount = false;
 			mGoogleApiClient.connect();
+		} else {
+			doFetchToken();
 		}
+	}
+	
+	@Kroll.method
+	public void invalidateToken(String token) {
+		Activity activity = TiApplication.getAppCurrentActivity();
+		GoogleAuthUtil.invalidateToken(activity, token);
 	}
 
 	@Kroll.method

@@ -7,6 +7,16 @@
 	<iphone>
 	</iphone>
 	<android xmlns:android="http://schemas.android.com/apk/res/android">
+	  <manifest>
+	    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+	    <application>
+        <meta-data android:name="com.google.android.gms.version"
+                   android:value="4132500" />
+      </application>
+	  </manifest>
+
 	</android>
 	<mobileweb>
 	</mobileweb>
