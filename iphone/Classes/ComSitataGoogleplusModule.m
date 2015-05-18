@@ -156,22 +156,22 @@
 // Handle when we resume back from the login process.
 // GPPURLHandler will fire and proceed to collect addition user information
 // if the url scheme matches what is defined in the plist. GPPURLHandler routine
-// wil call finishedWithAuth.
+// will call finishedWithAuth.
 -(BOOL)handleRelaunch
 {
     NSDictionary *launchOptions = [[TiApp app] launchOptions];
     if (launchOptions!=nil)
     {
-        NSString *urlString = [launchOptions objectForKey:@"url"];
-        NSURL *url = [NSURL URLWithString:urlString];
-        NSString *sourceApplication = [launchOptions objectForKey:@"source"];
-        // Titanium doesn't expose the original 'anotation' object for us
-        // So we just create a null object here. It seems to work this way.
-        id annotation;
-        return [GPPURLHandler handleURL:url
-                      sourceApplication:sourceApplication
-                             annotation:annotation];
-        
+        NSURL *url = [launchOptions objectForKey:UIApplicationLaunchOptionsURLKey];
+        NSString *sourceApplication = [launchOptions objectForKey:UIApplicationLaunchOptionsSourceApplicationKey];
+        id annotation = [launchOptions objectForKey:UIApplicationLaunchOptionsAnnotationKey];
+
+        if (url != nil && sourceApplication != nil) {
+            return [GPPURLHandler handleURL:url
+                          sourceApplication:sourceApplication
+                                 annotation:annotation];
+        }
+
     }
     return NO;
 }
