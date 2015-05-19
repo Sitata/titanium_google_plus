@@ -166,6 +166,18 @@
         NSString *sourceApplication = [launchOptions objectForKey:UIApplicationLaunchOptionsSourceApplicationKey];
         id annotation = [launchOptions objectForKey:UIApplicationLaunchOptionsAnnotationKey];
 
+        // Because Titanium mutates the launchOptions object and defines their own
+        // keys...
+        if (url == nil) {
+            NSString *urlString = [launchOptions objectForKey:@"url"];
+            if (urlString != nil) {
+                url = [NSURL URLWithString:urlString];
+            }
+        }
+        if (sourceApplication == nil) {
+            sourceApplication = [launchOptions objectForKey:@"source"];
+        }
+
         if (url != nil && sourceApplication != nil) {
             return [GPPURLHandler handleURL:url
                           sourceApplication:sourceApplication
