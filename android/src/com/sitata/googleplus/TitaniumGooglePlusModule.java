@@ -389,7 +389,7 @@ public class TitaniumGooglePlusModule extends KrollModule implements
 		return mClientId;
 	}
 
-	@Kroll.getProperty @Kroll.method
+	@Kroll.setProperty @Kroll.method
 	public void setScopes(String[] value)
 	{
 		mScopes = value;
