@@ -229,7 +229,9 @@ public class TitaniumGooglePlusModule extends KrollModule implements
 		HashMap<String, String> event = new HashMap<String, String>();
 		event.put("accountId", email);
 		event.put("accessToken", token);
-		successCallback.call(getKrollObject(), event);
+		if (successCallback != null){
+			successCallback.call(getKrollObject(), event);
+		}
 
 	}
 
@@ -260,7 +262,9 @@ public class TitaniumGooglePlusModule extends KrollModule implements
 
 		HashMap<String, String> event = new HashMap<String, String>();
 		event.put("error", code);
-		errorCallback.call(getKrollObject(), event);
+		if (errorCallback != null){
+			errorCallback.call(getKrollObject(), event);
+		}
 	}
 
 
